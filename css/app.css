@@ -1,0 +1,13 @@
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#log-container {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#log-container div {
+    margin: 2rem;
+}

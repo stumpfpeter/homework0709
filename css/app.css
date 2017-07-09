@@ -3,11 +3,67 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+
+body {
+    margin:10px 10px 10px 10px;
+    padding: .2rem;
+
+}
 #log-container {
     font-size: 4rem;
     text-align: center;
+    margin: 2rem;
 }
 
-#log-container div {
-    margin: 2rem;
+.style1 {
+    margin: 3rem;
+    background-color: red;
+}
+
+.style2 {
+    margin: 3rem;
+    background-color: cornflowerblue;
+}
+
+.style3 {
+    margin: 5rem;
+    background-color: antiquewhite;
+    font-style: italic;
+    mso-font-width: 2 px;
+    color: blue;
+}
+
+#panel, #flip {
+    margin: 3rem;
+    background-color: greenyellow;
+    color: black;
+    font-weight: normal;
+    padding: 5px;
+    text-align: center;
+    border: solid 0.2rem darkgreen;
+}
+
+#flip {
+    margin: 3rem;
+    margin-bottom: 0px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bolder;
+    padding: 5 px;
+    text-align: center;
+    border: solid 0.2rem darkgreen;
+}
+
+#panel {
+    margin: 3rem;
+    margin-top: 0px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    border: solid 0.2rem darkgreen;
+    padding: 5 px;
+    padding-top: 20px;
+    padding-bottom: 20 px;
+    display: none;
 }
